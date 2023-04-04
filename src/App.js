@@ -2,7 +2,7 @@ import {useState} from "react";
 
 function App() {
     const [state, setState] = useState(0)
-
+    // initial commit
     const increment = () => setState(prev => prev + 1);
 
     return (
